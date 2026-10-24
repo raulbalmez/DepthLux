@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "DepthLux: Employing Depthwise Separable Convolutions for Low-Light Image Enhancement"
+type: article
+authors:
+  - {family-names: Balmez, given-names: Raul}
+  - {family-names: Brateanu, given-names: Alexandru}
+  - {family-names: Orhei, given-names: Ciprian}
+  - {family-names: Ancuti, given-names: Codruta O.}
+  - {family-names: Ancuti, given-names: Cosmin}
+journal: Sensors
+volume: 25
+issue: 5
+pages: "1530"
+year: 2025
+doi: 10.3390/s25051530
+license: Apache-2.0
