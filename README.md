@@ -9,7 +9,7 @@
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.21-FF6F00.svg?style=flat-square&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg?style=flat-square)](LICENSE)
 
-[**Paper**](https://doi.org/10.3390/s25051530) · [**Results**](#-results) · [**Citation**](#-citation)
+[**Paper**](https://doi.org/10.3390/s25051530) · [**Checkpoints**](#-checkpoints) · [**Results**](#-results) · [**Citation**](#-citation)
 
 </div>
 
@@ -73,6 +73,18 @@ python scripts/download_data.py --out data
 ```
 
 The datasets are placed under the `data/` folder.
+
+## 📦 Checkpoints
+
+Pretrained weights for the three benchmarks are available on **[Google Drive](https://drive.google.com/drive/folders/REPLACE_WITH_FOLDER_ID)**.
+
+| Dataset | File |
+| :--- | :--- |
+| LOL-v1 | `lolv1_best.weights.h5` |
+| LOL-v2-real | `lolv2_real_best.weights.h5` |
+| LOL-v2-synthetic | `lolv2_syn_best.weights.h5` |
+
+Place them under `checkpoints/` and pass the file to `evaluate.py` with `--weights` (see [Inference](#-inference)).
 
 ## 🏋️ Training
 
