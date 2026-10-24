@@ -76,7 +76,7 @@ The datasets are placed under the `data/` folder.
 
 ## 📦 Checkpoints
 
-Pretrained weights for the three benchmarks are available on **[Google Drive](https://drive.google.com/drive/folders/REPLACE_WITH_FOLDER_ID)**.
+Pretrained weights for the three benchmarks are available on **[Google Drive](https://drive.google.com/drive/folders/1w4n_vJYQGfb4Lh0F6x2a2P4WeST6j68K?usp=sharing)**.
 
 | Dataset | File |
 | :--- | :--- |
